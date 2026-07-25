@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    justify-content: center;
 }
 
 .nav {
@@ -26,4 +27,27 @@ body {
     padding-left: 50px;
     font-size: 18px;
     color: #333;
+}
+
+.main {
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 60%;
+    margin: 50px auto;
+    background-color: #f9f9f9;
+    display: flex;
+}
+
+.main ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  padding: 0;
+}
+
+.main img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
 }
