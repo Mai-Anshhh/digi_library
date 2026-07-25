@@ -1,0 +1,29 @@
+
+body {
+    background-color: #bad6df;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    background-color: #e4dada;
+    padding: 10px;
+}
+
+.nav h5 {
+    margin: 0;
+    padding-right: 700px;
+    font-size: 18px;
+    color: #333;
+}
+
+.nav h6 {
+    margin: 0;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: 18px;
+    color: #333;
+}
