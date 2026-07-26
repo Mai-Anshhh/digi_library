@@ -8,7 +8,7 @@ fetch("books.json")
 
         list.innerHTML += `
             <li>
-                <a href="#">
+                <a href="${book.link}" target="_blank">
                     <img src="${book.cover}">
                     <h2>${book.title}</h2>
                     <p>${book.description}</p>
