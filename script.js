@@ -12,6 +12,9 @@ fetch("books.json")
                     <img src="${book.cover}">
                     <h2>${book.title}</h2>
                     <p>${book.description}</p>
+                    <p>Author: ${book.author}</p>
+                    <p>Category: ${book.category}</p>
+                    <p>Available: ${book.available ? "🟢" : "🔴"}</p>
                 </a>
             </li>
         `;

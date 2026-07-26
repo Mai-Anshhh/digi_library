@@ -1,5 +1,5 @@
 body {
-    background-color: #F3E8D8;
+    background-color: #F5E6CC;
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -9,10 +9,10 @@ body {
 header {
     display: flex;
     justify-content: space-between;
+    color: #f3f0ee;
     align-items: center;
-
     padding: 15px 40px;
-    background: #d6cdcd;
+    background: #72594d;
 }
 
 .logo {
@@ -32,7 +32,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: black;
+    color: #f3f0ee;
     font-weight: bold;
 }
 
@@ -44,14 +44,62 @@ nav a {
     outline: none;
 }
 
+.library-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    width: 100%;
+    padding: 0;
+}
+
+.sidebar {
+    width: 250px;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    margin-top: 0;
+    padding: 8px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 5px;
+}
+
+.sidebar li {
+    display: inline-block;
+    text-decoration: none;
+    color: #111;
+    cursor: pointer;
+    border: 2px solid #111;
+    padding: 12px 24px;
+    border-radius: 999px;
+    font-weight: 600;
+    font-size: 0.7rem;
+    margin: 5px 0;
+    transition: all 0.25s ease;
+}
+
+.sidebar li:hover {
+    transform: translateY(-3px);
+}
+
+.sidebar li.active {
+    background-color: #111;
+    color: #f3f0ee;
+}
+
 .main {
     padding: 20px;
+    padding-top: 40px;
     width: 60%;
     margin: 50px auto;
     display: flex;
+    flex: 1;
 }
 
-.main ul {
+#book-list {
     list-style: none;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -60,7 +108,7 @@ nav a {
 }
 
 .main li {
-    background-color: #fdeedd;
+    background-color: #FFF8F0;
     cursor: pointer;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     padding: 10px;
@@ -89,4 +137,8 @@ nav a {
 
 .main h2 {
     min-height: 60px;
+}
+
+.main p {
+    font-size: .8rem;
 }
