@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Maus",
+        "author": "Art Spiegelman",
+        "description": "Pulitzer Prize-winning graphic novel.",
+        "cover": "covers/maus.jpg",
+        "category": "Graphic Novel",
+        "available": true
+    },
+    {
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "description": "A novel about racial injustice in the Deep South.",
+        "cover": "covers/mockingbird.jpg",
+        "category": "Classic Literature",
+        "available": false
+    }
+]
