@@ -1,10 +1,19 @@
+let books = [];
+
 fetch("books.json")
-.then(res => res.json())
-.then(books => {
+    .then(res => res.json())
+    .then(data => {
+        books = data;
+        renderBooks(books);
+    });
 
-    const list = document.querySelector(".main ul");
+function renderBooks(bookArray) {
 
-    books.forEach(book => {
+    const list = document.querySelector("#book-list");
+
+    list.innerHTML = "";
+
+    bookArray.forEach(book => {
 
         list.innerHTML += `
             <li>
@@ -21,4 +30,59 @@ fetch("books.json")
 
     });
 
+}
+
+
+const categories = document.querySelectorAll(".sidebar li");
+console.log(categories.length);
+
+categories.forEach(category => {
+    category.addEventListener("click", () => {
+        console.log("clicked"),
+            categories.forEach(c => c.classList.remove("active"));
+
+        category.classList.add("active");
+        selectedCategory = category.textContent.trim();
+
+        updateBooks();
+
+    });
+
 });
+
+const search = document.querySelector(".search");
+
+search.addEventListener("input", () => {
+
+    searchText = search.value.toLowerCase();
+
+    updateBooks();
+
+});
+
+let selectedCategory = "All";
+let searchText = "";
+
+function updateBooks(){
+
+    const filtered = books.filter(book => {
+
+        const matchesSearch =
+
+            book.title.toLowerCase().includes(searchText) ||
+
+            book.author.toLowerCase().includes(searchText);
+
+        const matchesCategory =
+
+            selectedCategory === "All" ||
+
+            book.category === selectedCategory;
+            
+        return matchesSearch && matchesCategory;
+
+    });
+
+    renderBooks(filtered);
+
+}
