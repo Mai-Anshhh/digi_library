@@ -34,12 +34,11 @@ function renderBooks(bookArray) {
 
 
 const categories = document.querySelectorAll(".sidebar li");
-console.log(categories.length);
 
 categories.forEach(category => {
     category.addEventListener("click", () => {
-        console.log("clicked"),
-            categories.forEach(c => c.classList.remove("active"));
+
+        categories.forEach(c => c.classList.remove("active"));
 
         category.classList.add("active");
         selectedCategory = category.textContent.trim();
@@ -63,7 +62,7 @@ search.addEventListener("input", () => {
 let selectedCategory = "All";
 let searchText = "";
 
-function updateBooks(){
+function updateBooks() {
 
     const filtered = books.filter(book => {
 
@@ -77,8 +76,11 @@ function updateBooks(){
 
             selectedCategory === "All" ||
 
-            book.category === selectedCategory;
-            
+            book.category === selectedCategory ||
+
+            book.subcategory === selectedCategory;
+
+
         return matchesSearch && matchesCategory;
 
     });

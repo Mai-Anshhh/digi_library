@@ -5,6 +5,7 @@
         "description": "Pulitzer Prize-winning graphic novel.",
         "cover": "covers/maus.jpg",
         "category": "Graphic Novel",
+        "subcategory": "",
         "link": "#",
         "available": true
     },
@@ -14,6 +15,7 @@
         "description": "A novel about racial injustice in the Deep South.",
         "cover": "covers/mockingbird.jpg",
         "category": "Classic Literature",
+        "subcategory": "",
         "link": "#",
         "available": false
     },
@@ -23,6 +25,7 @@
         "description": "A dystopian social science fiction novel.",
         "cover": "covers/1984.jpg",
         "category": "Science Fiction",
+        "subcategory": "",
         "link": "#",
         "available": false
     },
@@ -32,6 +35,7 @@
         "description": "A novel about the American dream.",
         "cover": "covers/gatsby.jpg",
         "category": "Classic Literature",
+        "subcategory": "",
         "link": "#",
         "available": true
     },
@@ -41,6 +45,7 @@
         "description": "A romantic novel of manners.",
         "cover": "covers/pride.jpg",
         "category": "Romance",
+        "subcategory": "",
         "link": "#",
         "available": true
     }
