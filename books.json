@@ -48,5 +48,193 @@
         "subcategory": "",
         "link": "#",
         "available": true
+    },
+
+    {
+        "title": "Hamlet",
+        "author": "William Shakespear",
+        "description": "Shakespeare's tragedy of revenge and inner conflict.",
+        "cover": "covers/hamlet.jpg",
+        "category": "Fiction",
+        "subcategory": "Drama",
+        "link": "#",
+        "available" : true
+    },
+
+    {
+        "title": "Three Men in a Boat",
+        "author": "Jerome K. Jerome",
+        "description": "A hilarious boating adventure filled with mishaps and witty humor.",
+        "cover": "",
+        "category": "Fiction",
+        "subcategory": "Humor",
+        "link":"#",
+        "available": true
+    },
+
+    {
+        "title": "The Metamorphosis",
+        "author": "Franz Kafka",
+        "description": "A classic novel about justice, prejudice, and courage.",
+        "cover": "",
+        "category": "Fiction",
+        "subcategory": "Classic Literature",
+        "link": "#",
+        "available": true
+    },
+
+    {
+        "title": "Harry Potter and the Philosopher's Stone",
+        "author": "J. K. Rowling",
+        "description": "A young wizard begins his magical journey at Hogwarts.",
+        "cover": "",
+        "category": "Fiction",
+        "subcategory": "Fantasy",
+        "link":"#",
+        "available":true
+    },
+
+    
+    {
+        "title": "War and Peace",
+        "author": "Leo Tolstoy",
+        "description": "An epic tale of love, war, and Russian society.",
+        "cover": "",
+        "category": "Fiction",
+        "subcategory": "Historical Fiction",
+        "link":"#",
+        "available":true
+    },
+
+    
+    {
+        "title": "Frankenstein",
+        "author": "Mary Shelley",
+        "description": "A scientist creates life with terrifying consequences.",
+        "cover": "",
+        "category": "Fiction",
+        "subcategory": "Science Fiction",
+        "link":"#",
+        "available":true
+    },
+
+    
+    {
+        "title": "Wonder",
+        "author": "R. J. Palacio",
+        "description": "A heartwarming story about kindness and acceptance.",
+        "cover": "",
+        "category": "Fiction",
+        "subcategory": "Contemporary",
+        "link":"#",
+        "available":true
+    },
+
+    
+    {
+        "title": "The 48 Laws of Power",
+        "author": "Robert Greene",
+        "description": "Strategies for understanding influence and power.",
+        "cover": "",
+        "category": "Non-Fiction",
+        "subcategory": "Self-Help",
+        "link":"#",
+        "available":true
+    },
+
+    
+    {
+        "title": "Atomic Habits",
+        "author": "James Clear",
+        "description": "Build better habits through small daily improvements.",
+        "cover": "",
+        "category": "Non-Fiction",
+        "subcategory": "Self-Help",
+        "link":"#",
+        "available":true
+    },
+
+    
+    {
+        "title": "The Adventures of Feluda",
+        "author": "Satyajit Ray",
+        "description": "Classic detective mysteries solved by Feluda.",
+        "cover": "",
+        "category": "Fiction",
+        "subcategory": "Mystery",
+        "link":"#",
+        "available":true
+    },
+
+    
+    {
+        "title": "Ikigai",
+        "author": "Héctor García & Francesc Miralles",
+        "description": "Discover purpose and joy through Japanese philosophy.",
+        "cover": "",
+        "category": "Non-Fiction",
+        "subcategory": "Self-Help",
+        "link":"#",
+        "available":true
+    },
+
+    
+    {
+        "title": "I Am Malala",
+        "author": "Malala Yousafzai",
+        "description": "An inspiring memoir about courage and education.",
+        "cover": "",
+        "category": "Non-Fiction",
+        "subcategory": "Biography",
+        "link":"#",
+        "available":true
+    },
+
+    
+    {
+        "title": "The Psychology of Money",
+        "author": "Morgan Housel",
+        "description": "Lessons on wealth, investing, and financial behavior.",
+        "cover": "",
+        "category": "Non-Fiction",
+        "subcategory": "Finance",
+        "link":"#",
+        "available":true
+    },
+
+    
+    {
+        "title": "The Alchemist",
+        "author": "Paulo Coelho",
+        "description": "A journey of dreams, destiny, and self-discovery.",
+        "cover": "",
+        "category": "Fiction",
+        "subcategory": "Adventure",
+        "link":"#",
+        "available":true
+    },
+
+    
+    {
+        "title": "Short Stories by O. Henry",
+        "author": "O. Henry",
+        "description": "Classic tales with clever twists and endings.",
+        "cover": "",
+        "category": "Fiction",
+        "subcategory": "Short Stories",
+        "link":"#",
+        "available":true
+    },
+
+     {
+        "title": "Selected Poems",
+        "author": "John Keats",
+        "description": "Beautiful poems celebrating love, beauty, and nature.",
+        "cover": "",
+        "category": "Poetry",
+        "subcategory": "Classic Poetry",
+        "link":"#",
+        "available":true
     }
+
 ]
