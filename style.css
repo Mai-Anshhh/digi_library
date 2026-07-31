@@ -90,7 +90,7 @@ nav a {
     color: #f3f0ee;
 }
 
-.main {
+.card {
     padding: 20px;
     padding-top: 40px;
     width: 60%;
@@ -107,7 +107,7 @@ nav a {
     padding: 0;
 }
 
-.main li {
+.card li {
     background-color: #FFF8F0;
     cursor: pointer;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -117,17 +117,17 @@ nav a {
     box-shadow: 5px 5px 3px rgba(0, 0, 5, 5);
 }
 
-.main li a {
+.card li a {
     text-decoration: none;
     color: inherit;
     display: block;
 }
 
-.main li:hover {
+.card li:hover {
     transform: translateY(-4px);
 }
 
-.main img {
+.card img {
     width: 180px;
     height: 270px;
     object-fit: cover;
@@ -135,10 +135,10 @@ nav a {
     display: block;
 }
 
-.main h2 {
+.card h2 {
     min-height: 60px;
 }
 
-.main p {
+.card p {
     font-size: .8rem;
 }
