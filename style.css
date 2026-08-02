@@ -152,12 +152,13 @@ nav a {
     color: #72594d;
 }
 
-.dashboard {
+.admin-main {
     display: flex;
-    justify-content: left;
+    justify-content: center;
+    gap: 100px;
     padding: 20px;
-    margin-left: 500px;
 }
+
 
 .dashboard ul {
     list-style: none;
@@ -173,13 +174,6 @@ nav a {
     border-radius: 20px;
     margin: 10px 0;
     padding: 10px 20px;
-}
-
-.actions {
-    display: flex;
-    gap: 20px;
-    padding: 20px;
-    margin-left: 1000px;
 }
 
 .actions ul {
