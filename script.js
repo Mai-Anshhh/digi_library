@@ -17,7 +17,7 @@ function renderBooks(bookArray) {
 
         list.innerHTML += `
             <li>
-                <a href="${book.link}" target="_blank">
+                <a>
                     <img src="${book.cover}">
                     <h2>${book.title}</h2>
                     <p>${book.description}</p>
